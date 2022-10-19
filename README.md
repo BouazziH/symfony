@@ -17,3 +17,6 @@ et aussi faut tapper
   <link rel="stylesheet" href="{{asset('styles/bootstrap.min.css')}}">
   dans le fichier base.html .twig
 
+# crud
+symfony console make:crud
+
