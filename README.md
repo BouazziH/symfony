@@ -40,3 +40,5 @@ apres on laisse tout par defaut et aussi faire la migration et le imigrate
  symfony console make:registration-form
  # Fixtures
  $ composer require --dev orm-fixtures
+ # Faker php
+ composer require fakerphp/faker
