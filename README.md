@@ -29,3 +29,12 @@ public function __toString()
 # pour ajouter emmet 
 "emmet.includeLanguages": {"twig":"html"},
 faut le rajouter json file qui se trouve dans file preference settings  apres faut tapper json dans la barre de recherche
+# user
+symfony console make:user
+apres on laisse tout par defaut et aussi faire la migration et le imigrate
+
+# authentification
+ symfony console make:auth
+ pour cree un formulare d'authentification 
+ # creation de formulaire d'enregistration 
+ symfony console make:registration-form
