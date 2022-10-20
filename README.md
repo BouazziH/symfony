@@ -20,3 +20,9 @@ et aussi faut tapper
 # crud
 symfony console make:crud
 
+# methode __tostring
+faut ajouter pour la table formation recuper les donees
+public function __toString()
+    {
+        return $this->getTitre();
+    }
