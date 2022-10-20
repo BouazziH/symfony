@@ -38,3 +38,5 @@ apres on laisse tout par defaut et aussi faire la migration et le imigrate
  pour cree un formulare d'authentification 
  # creation de formulaire d'enregistration 
  symfony console make:registration-form
+ # Fixtures
+ $ composer require --dev orm-fixtures
