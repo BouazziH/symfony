@@ -17,3 +17,15 @@ et aussi faut tapper
   <link rel="stylesheet" href="{{asset('styles/bootstrap.min.css')}}">
   dans le fichier base.html .twig
 
+# crud
+symfony console make:crud
+
+# methode __tostring
+faut ajouter pour la table formation recuper les donees
+public function __toString()
+    {
+        return $this->getTitre();
+    }
+# pour ajouter emmet 
+"emmet.includeLanguages": {"twig":"html"},
+faut le rajouter json file qui se trouve dans file preference settings  apres faut tapper json dans la barre de recherche
