@@ -42,3 +42,5 @@ apres on laisse tout par defaut et aussi faire la migration et le imigrate
  $ composer require --dev orm-fixtures
  # Faker php
  composer require fakerphp/faker
+ # exucute fixture
+ symfony console doctrine:fixture:load
