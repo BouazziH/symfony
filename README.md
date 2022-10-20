@@ -26,3 +26,6 @@ public function __toString()
     {
         return $this->getTitre();
     }
+# pour ajouter emmet 
+"emmet.includeLanguages": {"twig":"html"},
+faut le rajouter json file qui se trouve dans file preference settings  apres faut tapper json dans la barre de recherche
