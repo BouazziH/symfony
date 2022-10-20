@@ -13,7 +13,8 @@ class UserType extends AbstractType
     {
         $builder
             ->add('email')
-            ->add('roles')
+            //commenter cette ligne pour qu'on puisse avoir le rendu mais sans role
+            //->add('roles')
             ->add('password')
         ;
     }
